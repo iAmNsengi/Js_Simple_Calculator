@@ -72,6 +72,7 @@ margin: 5px;
 width: 50px;
 font-weight: 700;
 cursor: pointer;
+border: 1px solid white;
 }
 button.submit{
     background-color: green;
@@ -79,4 +80,8 @@ button.submit{
     font-weight: 900;
     height: 50px !important;
     padding: 5px;
+}
+button:hover{
+    box-shadow: 10x 10px 10px #222;
+    border: 1px solid orange;
 }
